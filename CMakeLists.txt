@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project(CPPEstSim)
 
-set(Qt5Core_DIR /home/joe/Qt/5.14.2/gcc_64/lib/cmake/Qt5Core)
-set(Qt5Network_DIR /home/joe/Qt/5.14.2/gcc_64/lib/cmake/Qt5Network)
-set(Qt5Widgets_DIR /home/joe/Qt/5.14.2/gcc_64/lib/cmake/Qt5Widgets)
 set(CMAKE_CXX_STANDARD 11)
 #set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -std=c++0x")
 

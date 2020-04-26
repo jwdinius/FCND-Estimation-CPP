@@ -114,7 +114,7 @@ See Lines 294-296 in `QuadEstimatorEkf.cpp`.  No changes to the noise levels nee
 </p>
 
 ## Flight Evaluation
-I added my controller \( implementation and gains \) from the previous project and ran the simulator with the `11_GPSUpdate` test case to see if I needed to de-tune the controller gains.
+I added my controller \( implementation and gains \) from the previous project.  I then ran the combined controller and estimator code for Scenarios 01-10 and verified that all of the tests that have passing criteria still pass.  I then ran the simulator with the `11_GPSUpdate` test case to see if I needed to de-tune the controller gains.  Here's a chart:
 
 <p align="center">
 <img src="images/add-controller.png" width="500"/>
